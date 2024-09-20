@@ -9,8 +9,8 @@ import java.time.Duration;
 @Service
 public class TaskScheduler {
     private final JFrame frame;
-    private final Duration WINDOW_VISIBLE_DURATION = Duration.ofSeconds(20);
-    private final Duration APPLICATION_RUNNING_DURATION=Duration.ofMinutes(1);
+    private final Duration WINDOW_VISIBLE_DURATION = Duration.ofSeconds(30);
+    private final Duration APPLICATION_RUNNING_DURATION=Duration.ofMinutes(30);
 
 
 
